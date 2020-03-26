@@ -13,7 +13,7 @@ Nyt voit avata processingin samalla tavalla kuin minkä tahansa muun ohjelman.
 
 ### Ensimmäinen ohjelma
 Kopioi seuraava koodinpätkä editoriin:
-```java
+```processing
 void setup() {
   size(400, 400);
   stroke(255);
