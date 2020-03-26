@@ -11,5 +11,19 @@ void setup() {
 }
       
 void draw() {
+
 }
 ```
+
+Tässä ohjelmassa on kaksi funktiota, setup ja draw. Setup suoritetaan kerran ohjelman alussa. Draw suoritetaan toistuvasti koko ohjelman ajan. Koska tässä draw:n sisällä ei ole koodia, se ei tee mitään. Funktiot erotetaan muusta ohjelmasta hakasulkeilla {} ja jokainen komento päättyy puolipisteeseen ;
+
+Ohjelma luo ikkunan ja piirtää siihen yhden viivan:
+
+Komento size(400, 400); luo ikkunan, jonka koko on 400px * 400px.
+
+stroke(255); asettaa piirron väriksi mustan.
+
+line(0, 0, 200, 200); piirtää viivan pisteestä (0, 0) pisteeseen (200, 200).
+
+
+Kokeile muuttaa numeroarvoja ohjelmassa. Entä miten saat lisättyä kuvaan toisen viivan? Osaatko piirtää kolmella viivalla kolmion?
