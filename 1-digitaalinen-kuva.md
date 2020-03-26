@@ -12,3 +12,9 @@ Kun näyttöä katsoo kauempaa, siitä ei erota pikseleitä, vaan se näyttää 
 Eri sävyjä tuotetaan säätämällä alipikselien kirkkautta suhteessa toisiinsa. Esimerkiksi sininen väri tuotetaan sammuttamalla punaiset ja vihreät alipikselit ja jättämällä siniset päälle. Kuitenkaan esimerkiksi keltaista ei voi tuottaa näin, koska RGB-näytöissä ei ole keltaisia alipikseleitä. Keltainen väri tuotetaan laittamalla punaiset ja vihreät alipikselit päälle ja siniset pois. Syntyvä valo näyttää keltaiselta, vaikka siinä ei olekaan keltaista valoa. Tässäkin hyödynnetään illuusiota.
 
 ![Pikseleitä](images/yellow.png)
+
+## Processing ja pikselit
+
+Processing käsittelee pikseleitä koordinaatistona. Koordinaatisto toimii kuin matematiikassa, eli jokaisesta pisteestä eli pikselisä ilmoitetaan x ja y. Pikseli (0, 0) on vasemmassa yläkulmassa, ja x-koordinaatit kasvavat oikealla, y-koordinaatit alaspäin.
+
+![Pikseleitä](images/koordinaatit.png)
