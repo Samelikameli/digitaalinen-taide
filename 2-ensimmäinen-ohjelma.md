@@ -2,7 +2,7 @@
 
 Testivaiheessa kokeiltiin tätä ohjelmaa:
 
-```
+```processing
 void setup() {
   size(400, 400);
   stroke(255);
