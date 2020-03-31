@@ -16,7 +16,7 @@ void draw() {
 
 Tässä ohjelmassa on kaksi funktiota, setup ja draw. Setup suoritetaan kerran ohjelman alussa. Draw suoritetaan toistuvasti koko ohjelman ajan. Koska tässä draw:n sisällä ei ole koodia, se ei tee mitään. Funktiot erotetaan muusta ohjelmasta hakasulkeilla {} ja jokainen komento päättyy puolipisteeseen ;
 
-**Huomaa, että draw ei tässä liity piirtämiseen**
+**Huomaa, että draw ei tässä liity piirtämiseen, vaan myös setupissa voi piirtää.**
 
 Ohjelma luo ikkunan ja piirtää siihen yhden viivan:
 
