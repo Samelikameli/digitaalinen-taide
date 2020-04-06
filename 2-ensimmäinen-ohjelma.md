@@ -22,9 +22,10 @@ Ohjelma luo ikkunan ja piirtää siihen yhden viivan:
 
 Komento size(400, 400); luo ikkunan, jonka koko on 400px * 400px.
 
-stroke(255, 255, 255); asettaa piirron väriksi valkoisen.
+stroke(255, 255, 255); asettaa piirron väriksi valkoisen. Valkoisen RGB-arvo on () Väriä voi muuttaa monta kertaa ohjelman aikana. 
 
 line(0, 0, 200, 200); piirtää viivan pisteestä (0, 0) pisteeseen (200, 200).
 
+Lisäksi halutessaan voi muuttaa taustan väriä komennolla background. Esimerkiksi background(0, 0, 0); tekee taustasta mustan.
 
 Kokeile muuttaa numeroarvoja ohjelmassa. Entä miten saat lisättyä kuvaan toisen viivan? Osaatko piirtää kolmella viivalla kolmion?
