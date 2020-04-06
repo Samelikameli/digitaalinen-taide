@@ -21,3 +21,7 @@ Muita komentoja, joilla voi piirtää:
 `ellipse(x, y, w, h);` Piirtää ellipsin, jonka keskipiste on koordinaateissa (x, y), leveys on w ja korkeus on h.
 Esimerkiksi `ellipse(150, 200, 10, 20);` piirtää ellipsin, jonka keskipiste on koordinaateissa (150, 200),
 on 10 pikseliä leveä ja 20 pikseliä korkea. Jos korkeus ja leveys on sama, syntyy ympyrä.
+
+Oletuksena muodot täytetään värillä. Sen voi kytkeä pois päältä noFill();
+
+Takaisin täytön saa fill(255, 255, 255);
