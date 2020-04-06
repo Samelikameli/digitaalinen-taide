@@ -7,10 +7,10 @@ Se on siis komento, jolle annetaan parametreja. Tässä ne ovat kahden pisteen k
 ```processing
 void setup() {
   size(400, 400);
-  stroke(255);
+  stroke(255, 255, 255);
   line(0, 0, 200, 200);
 }
-      
+
 void draw() {
 
 }
