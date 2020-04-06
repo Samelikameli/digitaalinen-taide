@@ -22,7 +22,7 @@ Ohjelma luo ikkunan ja piirtää siihen yhden viivan:
 
 Komento size(400, 400); luo ikkunan, jonka koko on 400px * 400px.
 
-stroke(255); asettaa piirron väriksi mustan.
+stroke(255); asettaa piirron väriksi valkoisen.
 
 line(0, 0, 200, 200); piirtää viivan pisteestä (0, 0) pisteeseen (200, 200).
 
