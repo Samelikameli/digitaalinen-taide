@@ -22,6 +22,18 @@ Muita komentoja, joilla voi piirtää:
 Esimerkiksi `ellipse(150, 200, 10, 20);` piirtää ellipsin, jonka keskipiste on koordinaateissa (150, 200),
 on 10 pikseliä leveä ja 20 pikseliä korkea. Jos korkeus ja leveys on sama, syntyy ympyrä.
 
+`point(300, 100);` Piirtää pisteen koordinaatteihin (300, 100)
+
+
+
 Oletuksena muodot täytetään värillä. Sen voi kytkeä pois päältä noFill();
 
 Takaisin täytön saa fill(255, 255, 255);
+
+
+`stroke("#ff0000");`  Punainen hex
+`stroke(255, 0, 0);`  Punainen RGB
+
+`strokeWidth(30);`    30px paksu
+
+Nämä vaikuttavat kaikkiin tuleviin piirroksiin, jos niitä ei vaihdeta välissä.
