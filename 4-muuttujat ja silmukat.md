@@ -1,4 +1,25 @@
-# Silmukat
+# Muuttujat ja silmukat
+## Muuttujat
+Muuttujat ovat keino tallentaa tietoa ohjelman sisällä. Processingissa käytetään yleensä kokonaislukumuuttujia:
+```processing
+void setup() {
+  size(400, 400);
+  stroke(255, 255, 255);
+  
+  int x1 = 0;
+  int y2 = 50;
+  int x2 = 100;
+  int y2 = 200;
+  
+  line(x1, y1, x2, y2);
+}
+
+void draw() {
+}
+
+```
+
+## Silmukat
 
 Silmukoilla voi toistaa komentoja. Pythonissa on kahdenlaisia silmukoita. For-silmukat ovat hyviä listan läpikäymiseen, mutta while-silmukat ovat usein parempia. Niitä käytetään, jos toistojen määrä ei ole tiedossa etukäteen.
 
