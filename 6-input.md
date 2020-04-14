@@ -1,5 +1,5 @@
 # Input
-Processingissa voi muokata taidetta. Tämä onnistuu draw-funktiolla ja muuttujilla mouseX ja mouseY:
+Processingissa voi muokata taidetta. Tämä onnistuu draw-funktiolla ja muuttujilla mouseX ja mouseY. Ne ovat kokonaislukumuuttujia, jotka kertovat hiiren X- ja Y-koordinaatit:
 
 ```processing
 void setup() {
