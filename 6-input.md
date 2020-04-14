@@ -40,3 +40,19 @@ void draw() {
 ```
 ![pyramidi](images/pyramidi.png)
 Ohjelma luo "pyramidin", jonka huippu seuraa hiirtä.
+
+
+```processing
+void setup() {
+  size(400, 400);
+  background(0);
+  stroke(255, 255, 255);
+}
+
+void draw() {
+  if (mousePressed) {
+    line(pmouseX, pmouseY, mouseX, mouseY);
+  }
+}
+```
+Tässä mousePressed on muuttuja, joka on tosi, kun hiirellä klikataan. pmouseX ja -Y ovat muuttujia, jotka kertovat hiiren sijainnin edellisessä framessa. Kun hiiren liikkeen yhdistää, saadaan yhtenäinen piirtojälki.
