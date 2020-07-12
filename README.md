@@ -1,3 +1,3 @@
 # digitaalinen-taide
 
-Toteutin tämän työohjepaketin lukiokurssisuorituksena Otaniemen lukion kautta. Tavoitteena on ymmärtää, miten digitaaliset kuvat toimivat, ja osata Processing-ohjelmointikielen alkeet.
+Toteutin tämän työohjepaketin lukiokurssisuorituksena Otaniemen lukion kautta. Tavoitteena on opettaa, miten digitaaliset kuvat toimivat, ja Processing-ohjelmointikielen alkeet.
