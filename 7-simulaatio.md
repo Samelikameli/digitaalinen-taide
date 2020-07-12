@@ -33,7 +33,9 @@ void draw() {
 }
 ```
 ![pallo](images/pallo.png)
+
 Kaksiuloitteinen harmoninen värähtelijä:
+
 ```processing
 void setup() {
   size(800, 800);
